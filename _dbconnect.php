@@ -1,0 +1,18 @@
+<?php
+$server = "localhost";
+$username = "root";
+$password = "";
+$database = "project";
+
+$conn = mysqli_connect($server, $username, $password, $database);
+if($conn){
+
+}
+
+else{
+    die("error". mysqli_connect_error());
+}
+
+
+
+?>
